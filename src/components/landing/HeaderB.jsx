@@ -17,13 +17,13 @@ export default function HeaderB() {
                             className="object-cover"
                         />
                     </div>
-                    <span className="font-semibold text-lg tracking-tight text-white">
+                    <span className="font-normal text-lg tracking-tight text-white">
                         Global CXO Accelerator
                     </span>
                 </div>
 
                 <div className="hidden md:flex items-center">
-                    <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">
+                    <span className="text-xs font-normal text-amber-500 uppercase tracking-widest">
                         Exclusive Leadership Briefing Series
                     </span>
                 </div>
@@ -31,7 +31,7 @@ export default function HeaderB() {
                 <div className="flex items-center gap-4">
                     <Link
                         href="#register"
-                        className="hidden sm:flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black px-5 py-2 rounded-full text-sm font-bold transition-all hover:scale-105"
+                        className="hidden sm:flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black px-4 py-1.5 rounded-full text-sm font-normal transition-all hover:scale-105"
                     >
                         Register Series
                     </Link>

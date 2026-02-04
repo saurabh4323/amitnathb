@@ -27,10 +27,10 @@ export default function FAQSection() {
     const [activeIndex, setActiveIndex] = useState(null);
 
     return (
-        <section className="py-24 bg-slate-900 overflow-hidden border-t border-white/5">
+        <section className="pt-4 pb-12 bg-slate-900 overflow-hidden border-t border-white/5">
             <div className="container mx-auto px-4">
-                <div className="max-w-4xl mx-auto space-y-12">
-                    <h2 className="text-3xl md:text-5xl font-bold text-white text-center leading-tight mb-16 tracking-tight">
+                <div className="max-w-4xl mx-auto space-y-6">
+                    <h2 className="text-3xl md:text-4xl font-normal text-white text-center leading-tight mb-8 tracking-tight">
                         Frequently Asked <span className="text-amber-500 italic">Questions</span>
                     </h2>
 
@@ -39,12 +39,12 @@ export default function FAQSection() {
                             <div key={index} className="group">
                                 <button
                                     onClick={() => setActiveIndex(activeIndex === index ? null : index)}
-                                    className={`w-full flex items-center justify-between p-6 rounded-2xl border transition-all text-left
+                                    className={`w-full flex items-center justify-between p-4 rounded-2xl border transition-all text-left
                                         ${activeIndex === index
                                             ? 'bg-amber-500/10 border-amber-500/30'
                                             : 'bg-white/[0.02] border-white/5 hover:border-white/10'}`}
                                 >
-                                    <span className={`text-lg font-bold transition-colors ${activeIndex === index ? 'text-amber-400' : 'text-slate-200'}`}>
+                                    <span className={`text-base font-normal transition-colors ${activeIndex === index ? 'text-amber-400' : 'text-slate-200'}`}>
                                         {faq.question}
                                     </span>
                                     <ChevronRight className={`w-5 h-5 text-amber-500/50 transition-transform ${activeIndex === index ? 'rotate-90' : ''}`} />
@@ -59,7 +59,7 @@ export default function FAQSection() {
                                             transition={{ duration: 0.3 }}
                                             className="overflow-hidden"
                                         >
-                                            <div className="p-8 text-slate-400 leading-relaxed font-light text-sm bg-black/20 rounded-b-2xl border-x border-b border-amber-500/10">
+                                            <div className="p-4 text-slate-400 leading-relaxed font-light text-sm bg-black/20 rounded-b-2xl border-x border-b border-amber-500/10">
                                                 {faq.answer}
                                             </div>
                                         </motion.div>

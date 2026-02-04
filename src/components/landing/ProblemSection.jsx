@@ -23,20 +23,19 @@ const problems = [
 
 export default function ProblemSection() {
     return (
-        <section className="py-24 bg-slate-950 relative overflow-hidden border-t border-white/5">
+        <section className="pt-4 pb-12 bg-slate-950 relative overflow-hidden border-t border-white/5">
             <div className="container mx-auto px-4 relative z-10">
                 {/* Header (Image 1) */}
-                <div className="max-w-3xl mx-auto text-center mb-16 space-y-6">
-                    <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight">
+                <div className="max-w-3xl mx-auto text-center mb-8 space-y-3">
+                    <h2 className="text-3xl md:text-4xl font-normal text-white tracking-tight">
                         The "Mid-Career Trap" Is Real.
                     </h2>
-                    <p className="text-lg text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
-                        You've spent 10+ years becoming a subject matter expert. Yet, when the CXO/C-suite roles open up, they look past you. <span className="text-white font-semibold">Why?</span>
+                    <p className="text-base text-slate-400 font-light leading-relaxed max-w-2xl mx-auto">
+                        You've spent 10+ years becoming a subject matter expert. Yet, when the CXO/C-suite roles open up, they look past you. <span className="text-white font-normal">Why?</span>
                     </p>
                 </div>
 
-                {/* Cards (Image 1) */}
-                <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
                     {problems.map((item, index) => (
                         <motion.div
                             key={index}
@@ -44,12 +43,12 @@ export default function ProblemSection() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            className="bg-white/[0.03] border border-white/10 rounded-2xl p-8 backdrop-blur-sm flex flex-col items-center text-center group hover:border-amber-500/30 transition-all shadow-xl"
+                            className="bg-white/[0.03] border border-white/10 rounded-2xl p-6 backdrop-blur-sm flex flex-col items-center text-center group hover:border-amber-500/30 transition-all shadow-xl"
                         >
-                            <div className="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <div className="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                                 <CheckCircle2 className="w-6 h-6 text-amber-500" />
                             </div>
-                            <h3 className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
+                            <h3 className="text-base font-normal text-white mb-2 group-hover:text-amber-400 transition-colors">
                                 <span className="text-amber-500">{item.title.split(":")[0]}:</span> {item.title.split(":")[1]}
                             </h3>
                             <p className="text-slate-400 text-sm leading-relaxed">
