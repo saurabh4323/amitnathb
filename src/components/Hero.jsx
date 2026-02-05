@@ -19,7 +19,7 @@ export default function Hero() {
                 <div className="space-y-8 mb-12 max-w-4xl">
                     <h1 className="text-6xl md:text-8xl font-bold leading-[1.05] tracking-tight text-white">
                         Shatter the <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-500 italic">₹50L+</span> <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-500 italic">₹30L+</span> <br />
                         <span className="text-white">Ceiling.</span>
                     </h1>
                     <h2 className="text-2xl md:text-4xl text-slate-300 font-light leading-tight max-w-2xl mx-auto">
@@ -34,7 +34,10 @@ export default function Hero() {
 
                 {/* CTA Area */}
                 <div className="flex flex-col items-center gap-6 mb-20 w-full max-w-md">
-                    <button className="group relative flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-xl font-bold px-12 py-5 rounded-xl shadow-[0_0_40px_-10px_rgba(245,158,11,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] w-full uppercase">
+                    <button
+                        onClick={() => window.open('https://rzp.io/rzp/7JhGFhwt', '_blank')}
+                        className="group relative flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-xl font-bold px-12 py-5 rounded-xl shadow-[0_0_40px_-10px_rgba(245,158,11,0.3)] transition-all hover:scale-[1.02] active:scale-[0.98] w-full uppercase"
+                    >
                         GET MY GOLD PASS – ₹18,000
                         <ArrowRight size={24} className="group-hover:translate-x-2 transition-transform" />
                     </button>

@@ -19,9 +19,9 @@ export default function CoachSection() {
               <div className="absolute -inset-2 bg-gradient-to-tr from-amber-500/20 to-transparent rounded-2xl blur-lg transition group-hover:opacity-100 opacity-60"></div>
               <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/5] bg-slate-900">
                 <img
-                  src="https://globalcxoaccelerator.com/wp-content/uploads/2025/01/2-4.jpg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkuHbnPcdJC8BJvikGK9B4E-x8TDzKdp7mBg&s"
                   alt="Mudit Saxena"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover  hover:grayscale-0 transition-all duration-700"
                 />
               </div>
             </div>

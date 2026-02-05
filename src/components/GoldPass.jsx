@@ -70,7 +70,10 @@ export default function GoldPass() {
                                     </div>
                                 </div>
 
-                                <button className="group relative flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-3xl font-bold px-12 py-8 rounded-2xl shadow-[0_0_50px_-10px_rgba(245,158,11,0.5)] transition-all hover:scale-105 active:scale-95 w-full uppercase">
+                                <button
+                                    onClick={() => window.open('https://rzp.io/rzp/7JhGFhwt', '_blank')}
+                                    className="group relative flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white text-3xl font-bold px-12 py-8 rounded-2xl shadow-[0_0_50px_-10px_rgba(245,158,11,0.5)] transition-all hover:scale-105 active:scale-95 w-full uppercase"
+                                >
                                     CLAIM GOLD PASS
                                     <ArrowRight size={36} className="group-hover:translate-x-3 transition-transform" />
                                 </button>

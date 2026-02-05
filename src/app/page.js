@@ -8,24 +8,23 @@ import SolutionSection from "../components/landing/SolutionSection";
 import AgendaSection from "../components/landing/AgendaSection";
 import InvestmentSection from "../components/landing/InvestmentSection";
 import TestimonialsB from "../components/landing/TestimonialsB";
+import VenueSection from "../components/landing/VenueSection";
 import FinalCTAB from "../components/landing/FinalCTAB";
 import FAQSection from "../components/landing/FAQSection";
 import Footer from "../components/landing/Footer";
 import RegistrationForm from "../components/landing/RegistrationForm";
+import WhatsAppSticky from "../components/landing/WhatsAppSticky";
 
 export default function Home() {
-  const scrollToRegistration = () => {
-    const element = document.getElementById('register');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+  const handleGoldPassClick = () => {
+    window.open('https://rzp.io/rzp/7JhGFhwt', '_blank');
   };
 
   return (
     <main className="min-h-screen bg-slate-950">
       <HeaderB />
 
-      <HeroB onRegister={scrollToRegistration} />
+      <HeroB onRegister={handleGoldPassClick} />
 
       <ProblemSection />
 
@@ -36,6 +35,8 @@ export default function Home() {
       <AgendaSection />
 
       <InvestmentSection />
+      
+      <VenueSection />
 
       <TestimonialsB />
 
@@ -61,13 +62,15 @@ export default function Home() {
         </div>
       </section>
 
-      <FinalCTAB onRegister={scrollToRegistration} />
+      <FinalCTAB onRegister={handleGoldPassClick} />
 
       <FAQSection />
 
       <div className="border-t border-white/5 bg-slate-950">
         <Footer />
       </div>
+
+      <WhatsAppSticky />
     </main>
   );
 }

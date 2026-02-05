@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import Countdown from "./Countdown";
 
 export default function HeroB({ onRegister }) {
     return (
@@ -20,17 +21,13 @@ export default function HeroB({ onRegister }) {
                         className="w-full lg:w-[55%] space-y-6 text-left"
                     >
                         {/* Image 0 Badge */}
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-normal uppercase tracking-widest">
-                            <span className="relative flex h-2 w-2">
-                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
-                            </span>
-                            Next Session: Market Awareness Hook
+                        <div className="mb-2">
+                            <Countdown />
                         </div>
 
                         {/* Image 0 Headline */}
                         <h1 className="text-4xl sm:text-5xl lg:text-5xl font-normal tracking-tight text-white leading-[1.1]">
-                            Shatter The ₹50L+ Ceiling: <br />
+                            Shatter The ₹30L+ Ceiling: <br />
                             Master The <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-500 drop-shadow-sm italic">Visibility Architecture</span> Of Global CXOs.
                         </h1>
 

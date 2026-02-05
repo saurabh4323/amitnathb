@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Countdown from "./Countdown";
 
 export default function HeaderB() {
     return (
@@ -23,18 +24,18 @@ export default function HeaderB() {
                 </div>
 
                 <div className="hidden md:flex items-center">
-                    <span className="text-xs font-normal text-amber-500 uppercase tracking-widest">
-                        Exclusive Leadership Briefing Series
-                    </span>
+                    <Countdown />
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <Link
-                        href="#register"
+                    <a
+                        href="https://rzp.io/rzp/7JhGFhwt"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="hidden sm:flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black px-4 py-1.5 rounded-full text-sm font-normal transition-all hover:scale-105"
                     >
                         Register Series
-                    </Link>
+                    </a>
                 </div>
             </div>
         </header>
