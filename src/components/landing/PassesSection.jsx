@@ -8,7 +8,7 @@ const passes = [
     name: "Bronze Pass",
     title: "1 Day Event Access",
     price: "7,999",
-    link: "https://rzp.io/rzp/IohtS4L",
+    link: "https://rzp.io/rzp/3kjbKWHg",
     color: "from-amber-900 via-amber-700 to-amber-900",
     benefits: [
       "5 Days Online Learning",
@@ -23,7 +23,7 @@ const passes = [
     name: "Silver Pass",
     title: "2 Day Event + Blueprint Access",
     price: "12,999",
-    link: "https://rzp.io/rzp/LLxl4uX",
+    link: "https://rzp.io/rzp/U5BkDfsd",
     color: "from-slate-400 via-slate-200 to-slate-400",
     badge: "Save ₹9,999",
     benefits: [
@@ -38,7 +38,7 @@ const passes = [
     name: "Gold Pass",
     title: "2 Day Event + Additional Access",
     price: "18,999",
-    link: "https://rzp.io/rzp/7JhGFhwt",
+    link: "https://rzp.io/rzp/oVFLW8OO",
     color: "from-amber-600 via-amber-300 to-amber-600",
     benefits: [
       "All Silver Pass Benefits",
@@ -54,7 +54,7 @@ const passes = [
     name: "Diamond Pass",
     title: "2 Day Event + Extended Program",
     price: "24,999",
-    link: "https://rzp.io/rzp/gpzDxM5",
+    link: "https://rzp.io/rzp/GwHmLKG",
     color: "from-orange-600 via-red-500 to-orange-600",
     benefits: [
       "All Gold Pass Benefits",
@@ -119,14 +119,7 @@ export default function PassesSection() {
                   ))}
                 </ul>
 
-                {pass.badge && (
-                  <div className="absolute top-4 right-4 z-20">
-                    <div className="bg-orange-500 text-white rounded-full w-14 h-14 flex flex-col items-center justify-center text-[10px] font-bold shadow-xl rotate-12 group-hover:rotate-0 transition-transform border-4 border-white">
-                      <span>Save</span>
-                      <span className="text-xs">₹10K</span>
-                    </div>
-                  </div>
-                )}
+
 
                 <div className="mt-auto pt-8 border-t border-slate-100">
                   <div className="text-center mb-6">
