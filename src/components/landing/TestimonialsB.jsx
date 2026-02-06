@@ -11,8 +11,7 @@ const testimonials = [
     { id: 4, vimeoId: "1128125028", hash: "3b1105b35f", author: "Global Leader 4" },
     { id: 5, vimeoId: "1112896293", hash: "e9e13f2948", author: "Global Leader 5" },
     { id: 6, vimeoId: "1110916018", hash: "3a480f3b7c", author: "Global Leader 6" },
-    { id: 7, vimeoId: "1089312220", hash: "7e76d30cff", author: "Global Leader 7" },
-    { id: 8, vimeoId: "1150084404", hash: "a4170587e8", author: "Global Leader 8" }
+
 ];
 
 export default function TestimonialsB() {
