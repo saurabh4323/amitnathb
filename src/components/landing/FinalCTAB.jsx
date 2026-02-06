@@ -22,25 +22,14 @@ export default function FinalCTAB({ onRegister }) {
                         Join us at the <span className="text-white">Global CXO Summit 2026.</span>
                     </p>
 
-                    <div className="p-6 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-xl relative group">
-                        <div className="absolute -inset-px bg-gradient-to-r from-amber-500/20 to-amber-600/20 rounded-3xl -z-10 group-hover:opacity-100 opacity-60 transition-opacity"></div>
-                        <div className="text-white font-normal text-xl mb-2">Price: ₹18,000</div>
-                        <div className="text-[10px] font-normal text-slate-500 uppercase tracking-widest font-mono">
-                            (Inclusive of 2-Day Live Bengaluru Event & Networking)
-                        </div>
-                    </div>
-
                     <div className="flex flex-col items-center gap-4 pt-6">
                         <button
                             onClick={onRegister}
                             className="group relative flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black text-lg font-normal px-8 py-3 rounded-lg shadow-[0_0_50px_-10px_rgba(245,158,11,0.5)] transition-all hover:scale-105 active:scale-95 uppercase"
                         >
-                            CLAIM YOUR GOLD PASS NOW
+                            GET TICKET
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
                         </button>
-                        <p className="text-[10px] font-normal text-amber-500/60 uppercase tracking-[0.2em]">
-                            Secure Your Spot Before The Bengaluru Venue Reaches Capacity.
-                        </p>
                     </div>
                 </div>
             </div>

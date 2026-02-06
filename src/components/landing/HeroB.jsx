@@ -42,7 +42,7 @@ export default function HeroB({ onRegister }) {
                                 onClick={onRegister}
                                 className="group relative flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black text-lg font-normal px-8 py-3 rounded-lg shadow-[0_0_50px_-10px_rgba(245,158,11,0.5)] transition-all hover:scale-105 active:scale-95 uppercase"
                             >
-                                GET MY GOLD PASS – ₹18,000
+                                GET TICKET
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
                             </button>
                             <p className="text-[10px] font-normal text-slate-500 uppercase tracking-[0.2em]">

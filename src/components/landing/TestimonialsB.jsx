@@ -7,7 +7,7 @@ import { Quote, Play } from "lucide-react";
 const testimonials = [
     { id: 1, vimeoId: "1150080294", hash: "7f178e0112", author: "Global Leader 1" },
     { id: 2, vimeoId: "1110911003", hash: "e1edc0e2d7", author: "Global Leader 2" },
-    { id: 3, vimeoId: "1089312220", hash: "7e76d30cff", author: "Global Leader 3" },
+    { id: 3, vimeoId: "1112896293", hash: "e9e13f2948", author: "Global Leader 3" },
     { id: 4, vimeoId: "1128125028", hash: "3b1105b35f", author: "Global Leader 4" },
     { id: 5, vimeoId: "1112896293", hash: "e9e13f2948", author: "Global Leader 5" },
     { id: 6, vimeoId: "1110916018", hash: "3a480f3b7c", author: "Global Leader 6" },

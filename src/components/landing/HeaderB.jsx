@@ -28,14 +28,12 @@ export default function HeaderB() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <a
-                        href="https://rzp.io/rzp/7JhGFhwt"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <button
+                        onClick={() => document.getElementById('tickets')?.scrollIntoView({ behavior: 'smooth' })}
                         className="hidden sm:flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-black px-4 py-1.5 rounded-full text-sm font-normal transition-all hover:scale-105"
                     >
-                        Register Series
-                    </a>
+                        Get Ticket
+                    </button>
                 </div>
             </div>
         </header>
